@@ -4,7 +4,10 @@
     </div>
     <div class="homepage">
         <introduce/>
-        <SiteBlock/>
+        <div class="content">
+            <contactInformation/>
+            <SiteBlock/>
+        </div>
     </div>
 </template>
 
@@ -12,6 +15,7 @@
     import myHeader from './components/homepage/myheader.vue'
     import introduce from './components/homepage/introduce.vue'
     import SiteBlock from './components/homepage/SiteBlock.vue'
+    import contactInformation from './components/homepage/contactInformation.vue'
 </script>
 
 <style scoped>
@@ -19,4 +23,9 @@
         margin-top: 10px;
         display: flex;
     }
+
+    .content {
+        margin-left: 30px;
+    }
+
 </style>

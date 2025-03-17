@@ -1,6 +1,6 @@
 <template>
     <div class="headerContainer">
-        <label class="headerFont">wind的blog</label>
+        <label class="headerFont">Hello World!</label>
     </div>
 </template>
 
@@ -14,12 +14,18 @@
         padding:20px;
         background-color: #e2e2e2;
         border-radius: 15px;
+        justify-content: center;
+        align-self: center;
     }
 
     .headerFont{
         font-size: 30px;
-        /* margin-left: 15px; */
+        font-weight: 700;
         margin-right: 10px;
-        align-self: center;
+        transition:all 0.5s;
+        cursor: pointer;
+    }
+    .headerFont:hover {
+        font-size: 40px;
     }
 </style>
