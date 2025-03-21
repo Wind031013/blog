@@ -1,21 +1,11 @@
 <template>
-    <div>
-        <myHeader/>
-    </div>
-    <div class="homepage">
-        <introduce/>
-        <div class="content">
-            <contactInformation/>
-            <SiteBlock/>
-        </div>
-    </div>
+    <HeadView/>
+    <RouterView></RouterView>
 </template>
 
 <script lang = "ts" setup>
-    import myHeader from './components/homepage/myheader.vue'
-    import introduce from './components/homepage/introduce.vue'
-    import SiteBlock from './components/homepage/SiteBlock.vue'
-    import contactInformation from './components/homepage/contactInformation.vue'
+    import HeadView from './components/views/HeadView.vue';
+    import { RouterView } from 'vue-router';
 </script>
 
 <style scoped>

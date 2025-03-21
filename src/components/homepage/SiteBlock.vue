@@ -37,19 +37,19 @@ const siteItems = [
     website: "https://www.bilibili.com/",
     site_name: "b站",
     description: "billbill大学",
-    img_src: "/billlogo.jpg",
+    img_src: "/siteLogo/billlogo.jpg",
   },
   {
     website: "https://www.csdn.net/",
     site_name: "csdn",
     description: "学习笔记",
-    img_src: "/csdnlogo.jpg",
+    img_src: "/siteLogo/csdnlogo.jpg",
   },
   {
     website: "https://github.com/",
     site_name: "github",
     description: "代码仓库",
-    img_src: "/githublogo.png",
+    img_src: "/siteLogo/githublogo.png",
   },
 ];
 
@@ -59,19 +59,25 @@ const aiItems = [
       website: "https://www.deepseek.com/",
       site_name: "DeepSeek",
       description: "探索未至之境",
-      img_src: "/deepseeklogo.png",
+      img_src: "/aiLogo/deepseeklogo.png",
     },
     {
       website: "https://chatglm.cn/",
       site_name: "智谱轻言",
       description: "靠谱青年用质谱",
-      img_src: "/zhipulogo.png",
+      img_src: "/aiLogo/zhipulogo.png",
     },
     {
       website: "https://xinghuo.xfyun.cn/",
       site_name: "讯飞星火",
       description: "奇思妙想，我是你的创意搭档",
-      img_src: "/xunfeixinghuologo.png",
+      img_src: "/aiLogo/xunfeixinghuologo.png",
+    },
+    {
+      website: "https://kimi.moonshot.cn/",
+      site_name: "KiMi",
+      description: "会推理解析，能深度思考的智能助手",
+      img_src: "/aiLogo/kimiLogo.png",
     },
   ];
 </script>

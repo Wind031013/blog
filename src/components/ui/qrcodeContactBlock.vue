@@ -20,7 +20,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-defineProps(['logoSrc', 'SiteName', 'qrCodeSrc'])
+defineProps(["logoSrc", "SiteName", "qrCodeSrc"]);
 const isQRCodeVisible = ref(false); // 控制二维码弹窗的显示
 
 // 二维码的显示与隐藏
@@ -55,6 +55,7 @@ const hideQRCode = () => {
 
 .img {
   width: 40px;
+  border-radius: 10px;
 }
 
 .textBlock {
